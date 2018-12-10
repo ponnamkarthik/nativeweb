@@ -88,7 +88,7 @@ return new Text('$defaultTargetPlatform is not yet supported by this plugin');
 
 ## Step 5
 
-Now over AndroidView and UiKitView accepts few parameters
+AndroidView and UiKitView accepts few parameters
 
 ```dart
 
@@ -97,7 +97,7 @@ onPlatformViewCreated: onPlatformViewCreated,
 creationParamsCodec: const StandardMessageCodec(),
 ```
 
-Now over AndroidView and UiKitView looks like below
+AndroidView and UiKitView looks like below
 
 ```dart
 if(defaultTargetPlatform == TargetPlatform.android) {
