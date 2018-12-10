@@ -296,6 +296,8 @@ NS_ASSUME_NONNULL_END
 
 Inside `FlutterWeb.m` paste the below code
 
+We implement `FlutterWebFactory` and `FlutterWebController`
+
 ```objc
 #import "FlutterWeb.h"
 
@@ -327,7 +329,9 @@ Inside `FlutterWeb.m` paste the below code
 }
 
 @end
+```
 
+```objc
 @implementation FlutterWebController {
   WKWebView* _webView;
   int64_t _viewId;
