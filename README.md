@@ -193,6 +193,17 @@ Create a new file `FlutterWeb.java`
 In this file we implement two methods `PlatformView`, `MethodCallHandler`
 
 ```java
+public class FlutterWeb implements PlatformView, MethodCallHandler {
+  
+  // ..
+  // ..
+  
+}
+```
+
+`FlutterWeb.java` constructor will be as below
+
+```java
 FlutterWeb(Context context, Registrar registrar, int id) {
     this.context = context;
     this.registrar = registrar;
