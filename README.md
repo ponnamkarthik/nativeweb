@@ -417,7 +417,7 @@ void onWebCreated(webController) {
 
 * Most Important
 
-Insude `example/ios` folder `Info.plist` file
+Inside `example/ios` folder `Info.plist` file
 
 ```plist
 <key>io.flutter.embedded_views_preview</key>
