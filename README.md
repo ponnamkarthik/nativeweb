@@ -1,6 +1,6 @@
 # nativeweb
 
-A new flutter plugin project.
+Build your Own Plugin using (PlatformViews) Demo for Flutter Live 2018 Extended Event - Hyderabad 
 
 ## Step 1
 
