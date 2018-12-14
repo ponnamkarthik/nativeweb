@@ -207,7 +207,6 @@ public class FlutterWeb implements PlatformView, MethodCallHandler {
 FlutterWeb(Context context, Registrar registrar, int id) {
     this.context = context;
     this.registrar = registrar;
-    this.url = url;
     webView = getWebView(registrar);
 
     channel = new MethodChannel(registrar.messenger(), "nativeweb_" + id);
